@@ -1,0 +1,77 @@
+body{
+    height: 100vh;
+    width:100vw;
+    background-image: url('./bg-items.jpg');
+display:flex;
+color:whitesmoke;
+flex-direction: column;
+align-items:center;
+justify-content: space-between
+}
+
+header{
+    display: flex;
+    flex-direction:row;
+     justify-content: space-between;
+     width: 90%;
+}
+#navbutton{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    
+}
+#Home{
+    text-align: center;
+    font-size: 1.5em;
+}
+#menuIcon{
+    height:2rem;
+    height:2rem;
+}
+#navBig{
+  display: none;
+}
+#dropDown{
+    display:flex;
+    text-align: center;
+align-items: center;
+}
+h2{
+    padding-right: 1rem
+}
+
+
+a{
+    padding:20px;
+    display:flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   align-content: center;
+
+}
+h1{
+    padding:50px
+}
+
+@media(min-width:481px){
+    .header{
+      background-color: firebrick;
+    }
+   
+}
+@media(min-width:768px){
+    #navbutton{
+        width:fit-content
+    }
+    #dropDown{
+        display:none;
+    }
+    #navBig{
+        display:flex;
+        padding:2rem
+    }
+
+}
